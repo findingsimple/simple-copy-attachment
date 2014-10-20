@@ -33,7 +33,6 @@ if ( ! class_exists( 'Simple_Copy_Attachment' ) ) :
  * should not be initialized until after the plugins_loaded and after_setup_theme hooks.
  * However, it also needs to run early on the init hook.
  *
- * @author Jason Conroy <jason@findingsimple.com>
  * @package Simple Copy Attachment
  * @since 1.0
  */
@@ -46,7 +45,6 @@ add_action( 'init', 'initialize_copy_attachment', -1 );
  * Plugin Main Class.
  *
  * @package Simple Copy Attachment
- * @author Jason Conroy <jason@findingsimple.com>
  * @since 1.0
  */
 class Simple_Copy_Attachment {
